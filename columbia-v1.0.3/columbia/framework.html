@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" /><!-- Disable horrible auto-skype for contact numbers in IE -->
+    <meta name="description" content="Add a site description here"><!-- Add your site description -->
+    <meta name="author" content="Add author description here"><!-- Add your author description -->
+    <meta name="keywords" content="add,some,general,keywords,here,about,your,site"><!-- Add sites your keywords -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" /><!-- Include a Favicon, (always keep in root of folder) -->
+
+    <title>ÇAĞRI YAPI | 25 YILLIK TECRÜBE</title><!-- Your page/site title -->
+
+    <!-- Load Our CSS - Do not alter the load order -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"><!-- Bootstrap Core - ALways load first -->
+    <link href="css/animate.css" rel="stylesheet"><!-- Animatations -->
+    <link href="css/icomoon.css" rel="stylesheet"><!-- Icon Font -->
+    <link href="css/style.css" rel="stylesheet"><!-- Main theme stylesheet -->
+    <link href="css/custom.css" rel="stylesheet"><!-- Custom styles - Always load last -->
+
+    <!-- Load our fonts form Google -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+
+    <!-- Load our fonts individually if IE8+, to avoid faux bold & italic rendering -->
+    <!--[if IE]>
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+    <![endif]-->
+
+    <!-- Load our stylesheet for IE8 -->
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="css/ie8.css" />
+    <![endif]-->
+
+    <!-- Load our stylesheet for IE9 -->
+    <!--[if IE 9]>
+    <link rel="stylesheet" type="text/css" href="css/ie9.css" />
+    <![endif]-->
+
+    <!-- Load our jQuery, with an alternative source/fallback to our own version if request is unavailable -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    
+    <!-- Load these in the <head> for quicker IE8+ load times -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+      /* Color-swatches */
+      #swatches .col-md-3.col-sm-6.col-xs-12 {
+        padding: 10px
+      }
+      .color-swatches .swatches {
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        background-color: #FFF;
+        width: 100%;
+      }
+      .color-swatches .left-col,
+      .color-swatches .right-col {
+        width: 50%;
+        height: 70px;
+      }
+      .color-swatches .left-col {
+        -webkit-border-radius: 6px 0 0 0;
+        -moz-border-radius: 6px 0 0 0;
+        border-radius: 6px 0 0 0;
+      }
+      .color-swatches .right-col {
+        -webkit-border-radius: 0 6px 0 0;
+        -moz-border-radius: 0 6px 0 0;
+        border-radius: 0 6px 0 0;
+      }
+      .color-swatches .hex {
+        padding: 16px;
+        height: 70px
+      }
+      .color-swatches .hex h4,
+      .color-swatches .hex p {
+        margin: 0;
+        color: #aaa;
+        font-size: 14px;
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        line-height: 19px;
+        text-transform: uppercase
+      }
+      .bs-glyphicons {
+        margin: 0;
+        overflow: hidden;
+      }
+      @media (min-width: 768px) {
+        .bs-glyphicons {
+          margin-right: 0;
+          margin-left: 0;
+        }
+      }
+      .bs-glyphicons-list {
+        padding-left: 0;
+        list-style: none;
+      }
+      .bs-glyphicons li {
+        float: left;
+        width: 25%;
+        padding: 20px;
+        margin-bottom: 20px;
+        line-height: 1.4;
+        text-align: center;
+      }
+      @media (min-width: 768px) {
+        .bs-glyphicons li {
+          width: 12.5%;
+          font-size: 12px;
+        }
+      }
+      .bs-glyphicons .glyphicon {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 24px;
+      }
+      .bs-glyphicons .glyphicon-class {
+        display: block;
+        text-align: center;
+        word-wrap: break-word;
+      }
+      /* Icomoon Grid */
+      .glyph {
+        font-size: 16px;
+        width: 15em;
+        padding-bottom: 1em;
+        margin-bottom: 1em;
+        float: left;
+        overflow: hidden;
+      }
+      .pbs {
+        padding-bottom: .25em;
+      }
+      .fs1 {
+        font-size: 32px;
+        text-align: center;
+        width: 12.5%
+      }
+      /* Just a button spacing fix */
+       #buttons .col-md-3.col-sm-6.col-xs-12,
+       #pops .col-md-3.col-sm-6.col-xs-12 {
+        margin-bottom: 20px
+       }
+      #pagemeta.white hr.title:after {
+        border-top-color: #fff;
+        }
+      }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Our page loader -->
+    <div class="loadstack">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- ============================ Main menu, (modal window) ============================ -->
+
+    <div id="menumodal" class="modal fade" tabindex="-1" role="dialog" aria-label="menumodalLabel" aria-hidden="true">
+
+        <!-- Close modal trigger -->
+        <button class="toggleclose" data-dismiss="modal" aria-hidden="true">
+            <span class="icon-close"></span>
+        </button>
+        <div class="explore">
+            <h3>Explore</h3>
+        </div>
+
+        <!-- Menu content -->
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- Logo for desktops/large screens -->
+                    <div id="menumodalLabel" class="modal-title">
+                        <div class="modallogo">
+                            <img src="img/Lgo.png" alt="Columbia Logo">
+                        </div>
+                        <div class="modaltagline">
+                            <h3>ÇAĞRI YAPI İNŞAAT LTD. ŞTİ. MURZİOĞLU ŞİRKETLER GRUBU İŞTİRAKİDİR.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <ul class="row motion">
+                        <li class="col-md-4 col-sm-6 two">
+                            <div class="menubg" style="background-image: url('img/menu/index.jpg')"></div>
+                            <a href="index.html" title="Home with Color Overlay Hero Image">Ana Sayfa<span>ŞİRKET İLE İLGİLİ GENEL BİLGİLER</span></a>
+                        </li>
+                        <li class="col-md-4 col-sm-6 four">
+                            <div class="menubg" style="background-image: url('img/menu/image.jpg')"></div>
+                            <a href="index-image.html" title="Home with Hero Image">Kurumsal<span>BAKIŞ AÇIMIZ. MİSYON VE VİZYONUMUZ</span></a>
+                        </li>
+                        
+                        <li class="col-md-4 col-sm-6 twenty">
+                            <div class="menubg" style="background-image: url('img/menu/framework.jpg')"></div>
+                            <a href="framework.html" title="Theme Framework">PROJELER<span>PROJELERİMİZDEN GÖRÜNTÜLER</span></a>
+                        </li>
+                        
+                        <li class="col-md-4 col-sm-6 twentyfour">
+                            <div class="menubg" style="background-image: url('img/menu/contact.jpg')"></div>
+                            <a href="contact.html" title="Contact">İLETİŞİM<span>ADRES İRTİBAT ULAŞIM BİLGİLERİ</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <h3>çağrı yapı</h3>
+                    <h4></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================ End Main Navigation ==================================== -->
+
+    <!-- ============================ Social menu, (modal window) ============================ -->
+
+    <div id="socialmodal" class="modal fade" tabindex="-1" role="dialog" aria-label="socialmodalLabel" aria-hidden="true">
+
+        <!-- Menu Trigger -->
+        <button class="toggleclose" data-dismiss="modal" aria-hidden="true">
+            <span class="icon-close"></span>
+        </button>
+        <div class="explore">
+            <h3>Be Social</h3>
+        </div>
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h3>Connect with Jonathan Ive</h3>
+                    <hr class="mini white central">
+                    <ul class="socialicons motion">
+                        <li class="two twitter"><a href="http://twitter.com/" title="Twitter" target="_blank"><span class="icon-twitter"></span></a></li>
+                        <li class="four"><a href="http://dribbble.com/" title="Dribbble" class="dribbble" target="_blank"><span class="icon-dribbble"></span></a></li>
+                        <li class="six"><a href="http://facebook.com/" title="Facebook" class="facebook" target="_blank"><span class="icon-facebook"></span></a></li>
+                        <li class="eight"><a href="http://instagram.com/" title="Instagram" class="instagram" target="_blank"><span class="icon-instagram"></span></a></li>
+                        <li class="ten"><a href="http://vimeo.com/" title="Vimeo" class="vimeo" target="_blank"><span class="icon-vimeo"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- =============================== End social menu ============================== -->
+
+    <!-- ============================ Header/fixed sidebar ============================ -->
+
+    <header id="header">
+        
+        <!-- Main menu toggle -->
+        <button class="toggle" data-toggle="modal" data-target="#menumodal">
+            <span class="menu-bar bar-1"></span>
+            <span class="menu-bar bar-2"></span>
+            <span class="menu-bar bar-3"></span>
+        </button>
+        
+        <!-- Second logo for mobiles/tablets only. Maximum height of 65px -->
+        <div class="mobile_logo">
+            <img src="img/logo.png" alt="Columbia Logo">
+        </div>
+
+        <!-- Bullet navigation -->
+        <nav id="bullets" class="cover">
+            <ul>
+				<li class="current-page-item"><a href="#wrapper"></a></li>
+            
+          </ul>
+        </nav>
+
+    </header>
+
+    <!-- Social menu toggle - keep outside of header to prevent horrible positioning problem on ipads -->
+    <button class="social" data-toggle="modal" data-target="#socialmodal">
+        <span class="icon-share"></span>
+    </button>
+    
+    <!-- End header/fixed sidebar -->
+
+    <!-- ============================ Start the page content ============================ -->
+
+    <!-- Leading Page Container -->
+    <!-- Always keep all page content wrapped in this div, with id="wrapper" and class="page-content" -->
+    <div id="wrapper" class="page-content">
+
+      <!-- ============================ Section one: slider hero ============================ -->
+
+      
+        <!-- ============================ Section End ============================== -->
+
+        <!-- ============================ Section Start ============================ -->
+
+        <section class="container padding">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="img/Proje1.jpg" alt="First slide">
+              </div>
+              <div class="item">
+                <img src="img/Proje2.jpg" alt="Second slide">
+              </div>
+              <div class="item">
+                <img src="img/Proje3.jpg" alt="Third slide">
+              </div>
+               <div class="item">
+                <img src="img/Proje4.jpg" alt="Fourth slide">
+              </div>
+            </div>
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
+        </section>
+
+        <!-- ============================ Section End ============================== -->
+
+        <!-- ============================ Section Start ============================ -->
+
+        
+
+      <!-- ============================ Section End ============================== -->
+
+      <!-- ============================ Footer======= ============================ -->
+
+      <footer class="padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <a href="index.html" title="Columbia"><img src="img/MurzLogo2.png"  ></a>
+                        <p>&copy; Çağrı Yapı 2017. Tüm Hakları Saklıdır</p>
+                        
+                        <hr class="mini central light-grey-dk">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    <!-- / END #wrapper -->
+    </div>
+
+    <!-- ========== Load our scripts - keep positioned at the end of your document ========== -->
+
+    <script src="js/bootstrap.min.js"></script><!-- Bootstrap core - always load first -->
+    <script src="js/wow.min.js"></script><!-- WoW animations -->
+    <script src="js/jquery.nav.js"></script><!-- Left-hand bullet navigation -->
+    <script src="js/jquery.nicescroll.min.js"></script><!-- Scrollbars for whole page and main navigation -->
+    <script src="js/jquery.easing.min.js"></script><!-- Easing plugin, for opacity fade on menu background images -->
+    <script src="js/scripts.js"></script><!-- Custom JS functions - always load last -->
+
+</body>
+
+</html>
